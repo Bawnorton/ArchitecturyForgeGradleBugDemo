@@ -1,5 +1,3 @@
-### [Demo Repository](https://github.com/Benjamin-Norton/ArchitecturyForgeGradleBugDemo)
-
 Using a non-modding library, in this case "com.theokanning.openai-gpt3-java:[service|client|api]:0.11.0", is not present at runtime, despite being in the dependancy section of the forge and included as forgeRuntimeLibrary
 <br>
 This does not affect the fabric instance.
