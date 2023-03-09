@@ -30,7 +30,7 @@ dependencies {
     modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
 
     include(forgeRuntimeLibrary("com.theokanning.openai-gpt3-java:service:0.11.0"))
-    include(implementation(forgeRuntimeLibrary("com.theokanning.openai-gpt3-java:api:0.11.0")))
+    include(forgeRuntimeLibrary("com.theokanning.openai-gpt3-java:api:0.11.0"))
     include(forgeRuntimeLibrary("com.theokanning.openai-gpt3-java:client:0.11.0"))
 
     include(forgeRuntimeLibrary("io.reactivex.rxjava2:rxjava:2.0.0"))
